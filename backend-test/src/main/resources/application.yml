@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://db:5432/sectors
+    driver-class-name: org.postgresql.Driver
+
+  flyway:
+    baseline-on-migrate: true
